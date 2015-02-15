@@ -44,6 +44,16 @@ Secure mysql server
 mysql_secure_installation
 ```
 
+Create Database
+```sh
+mysql -u root -p[your_mysql_password]
+
+> create database epanneur_dev;
+> create user epanneur identified by 'epanneur';
+> use epanneur;
+> grant all on epanneur_dev.* to 'epanneur'@localhost;
+```
+
 Clone the project
 
 ```sh

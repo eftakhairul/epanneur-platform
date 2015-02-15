@@ -8,12 +8,12 @@
 Install ruby 2.1.5:
 
 ```sh
-$ rvm instal 2.1.5
+$ rvm install 2.1.5
 ```
 Create gemset
 
 ```sh
-$ rvm ruby-2.1.5@rails4.2.0  —create
+$ rvm ruby-2.1.5@rails4.2.0 --create
 ```
 
 Clone the project

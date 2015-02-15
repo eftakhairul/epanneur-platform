@@ -63,6 +63,7 @@ cd epanneur-platform
 
 Run the project at 3000 port 
 ```sh
+rake db:migrate
 rails s 
 ```
 

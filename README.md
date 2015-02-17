@@ -13,7 +13,7 @@ rvm instal 2.1.5
 Create gemset
 
 ```sh
-rvm ruby-2.1.5@rails4.2.0  —create
+rvm ruby-2.1.5@rails4.2.0 --create
 ```
 
 Mysql Isntallation (If you don't have installed mysql in your PC)

@@ -50,8 +50,8 @@ mysql -u root -p[your_mysql_password]
 
 > create database epanneur_dev;
 > create user epanneur identified by 'epanneur';
-> use epanneur;
 > grant all on epanneur_dev.* to 'epanneur'@localhost;
+> exit;
 ```
 
 Clone the project
